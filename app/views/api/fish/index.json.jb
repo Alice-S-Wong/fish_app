@@ -1,0 +1,10 @@
+@fish.map do |fish|
+  {
+    id: fish.id,
+    species: fish.species,
+    color: fish.color,
+    description: fish.description,
+    size: fish.size,
+    image_url: fish.image_url
+  }
+end
